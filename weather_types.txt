@@ -1,0 +1,2 @@
+URL to all Weather Types
+https://openweathermap.org/weather-conditions

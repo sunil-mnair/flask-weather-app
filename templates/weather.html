@@ -1,0 +1,12 @@
+{% extends "base.html"%}
+{% block content %}
+
+<video src="{{url}}" autoplay loop playsinline muted></video>
+
+<div class="container">
+   <h1>{{city}}</h1>
+   <h2>{{current_temp}}&deg; Celsius</h2>
+   <h4>{{weather}}</h4>
+
+</div>
+{% endblock %}

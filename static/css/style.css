@@ -1,0 +1,25 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+  }
+
+  body{
+      margin: 0;
+  }
+
+  .container{
+      /* width:50%;
+      margin:auto; */
+      position: relative;
+      height:100vh;
+
+      display:flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+  }
