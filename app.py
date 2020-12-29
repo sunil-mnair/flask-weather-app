@@ -8,6 +8,12 @@ api_key = '2cb5ca9e7bcdd69ad9a80eae91e2c030'
 
 app = Flask(__name__)
 
+with open('sample_weather_data.json') as file:
+    test = json.load(file)
+
+with open('sample_weather_data.json','w') as file:
+    json.dump(test,file,indent = 2)
+
 @app.route("/")
 def index():
     
@@ -26,28 +32,26 @@ def check_weather():
         response = requests.get(url)
         data = response.json()
 
-        weather = data["weather"][0]['main']
-        current_temp = data["main"]['temp']
-        humidity = data["main"]['humidity']
+        print(data)
 
-        print(weather)
+        info = {}
+
+        info["weather"] = data["weather"][0]['main']
+        info["current_temp"] = data["main"]['temp']
+        info["humidity"] = data["main"]['humidity']
 
         with open("weather.json") as file:
             videos = json.load(file)
         
         try:
-            video = [video for video in videos['weather'] if video["type"] == weather.lower()][0]
+            info['url'] = [video['url'] for video in videos['weather'] if video["type"] == info["weather"].lower()][0]
         except:
             print(f"No Video found for Weather Type: {weather} ")
-            video = {'video' : 'https://player.vimeo.com/external/363031257.sd.mp4?s=a25de82d147c2bdc6fffa9fa38565cf127ecf3cc&profile_id=139&oauth2_token_id=57447761'}
+            info['url'] = 'https://player.vimeo.com/external/363031257.sd.mp4?s=a25de82d147c2bdc6fffa9fa38565cf127ecf3cc&profile_id=139&oauth2_token_id=57447761'
 
-        print(video)
-
+        
     return render_template("weather.html",city=city,
-    weather = weather,current_temp=current_temp,
-    url = video['video'])
-    
-
+    info = info)
 
 
 if __name__ == "__main__":

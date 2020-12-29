@@ -3,29 +3,29 @@
         
         {
             "type" : "clouds",
-            "video" : "https://player.vimeo.com/external/216445847.sd.mp4?s=4d5aacb5c90a07d9e47182e1d1a6e4d76400d60c&profile_id=164&oauth2_token_id=57447761"
+            "url" : "https://player.vimeo.com/external/216445847.sd.mp4?s=4d5aacb5c90a07d9e47182e1d1a6e4d76400d60c&profile_id=164&oauth2_token_id=57447761"
         },
         {
             "type" : "rain",
-            "video" : "https://player.vimeo.com/external/313717600.sd.mp4?s=794e127bb71c3d3eec3bfaf3867cc47d7909fca3&profile_id=164&oauth2_token_id=57447761"
+            "url" : "https://player.vimeo.com/external/313717600.sd.mp4?s=794e127bb71c3d3eec3bfaf3867cc47d7909fca3&profile_id=164&oauth2_token_id=57447761"
         },
         {
             "type" : "snow",
-            "video" : "https://player.vimeo.com/external/207609874.sd.mp4?s=ae13cde7d5ac2a55abd27c19438583cfe6d3e7bb&profile_id=164&oauth2_token_id=57447761"
+            "url" : "https://player.vimeo.com/external/207609874.sd.mp4?s=ae13cde7d5ac2a55abd27c19438583cfe6d3e7bb&profile_id=164&oauth2_token_id=57447761"
         },
         {
             "type" : "clear",
-            "video" : "https://player.vimeo.com/external/384418685.sd.mp4?s=0c242d85cabfc5b6f37f706b99e4d28424a2c233&profile_id=139&oauth2_token_id=57447761"
+            "url" : "https://player.vimeo.com/external/384418685.sd.mp4?s=0c242d85cabfc5b6f37f706b99e4d28424a2c233&profile_id=139&oauth2_token_id=57447761"
         },
         
         {
             "type" : "haze",
-            "video" : "https://player.vimeo.com/external/325036154.sd.mp4?s=2df7ed487d51d25c273ec1cc71a7f31c49f65afc&profile_id=164&oauth2_token_id=57447761"
+            "url" : "https://player.vimeo.com/external/325036154.sd.mp4?s=2df7ed487d51d25c273ec1cc71a7f31c49f65afc&profile_id=164&oauth2_token_id=57447761"
         },
         
         {
             "type" : "mist",
-            "video" : "https://player.vimeo.com/external/343732132.sd.mp4?s=e929998750867170d3fd43ec6c80abc45238896d&profile_id=139&oauth2_token_id=57447761"
+            "url" : "https://player.vimeo.com/external/343732132.sd.mp4?s=e929998750867170d3fd43ec6c80abc45238896d&profile_id=139&oauth2_token_id=57447761"
         }
 
         

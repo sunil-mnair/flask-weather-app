@@ -1,2 +1,2 @@
-URL to all Weather Types
+URL to all Weather Types that you can update in weather.json
 https://openweathermap.org/weather-conditions

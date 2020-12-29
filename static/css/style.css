@@ -5,13 +5,13 @@ video {
     position: fixed;
     top: 0;
     left: 0;
-  }
+}
 
-  body{
+body{
       margin: 0;
   }
 
-  .container{
+.container{
       /* width:50%;
       margin:auto; */
       position: relative;
